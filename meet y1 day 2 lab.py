@@ -49,3 +49,95 @@ Hi,myName
 	  
 Hi,my_name
 >>> 'myName'="student"
+bash_endlab
+	  
+SyntaxError: multiple statements found while compiling a single statement
+>>> myName='student'
+	  
+>>> print "Hi,"+'myName'
+	  
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hi,"+'myName')?
+>>> print "Hi,"+'myName'
+	  
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hi,"+'myName')?
+>>> print ("Hi,"+'myName')
+	  
+Hi,myName
+>>> myName='student'
+	  
+>>> myName
+	  
+'student'
+>>> print ("Hi,"+myName)
+	  
+Hi,student
+>>> >>> my_age = 15
+>>> print(‘I am ‘ + my_age + ‘years old’)
+
+SyntaxError: invalid syntax
+>>> my_age=15
+	  
+>>> print("I am"+my_age+ "years old")
+	  
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    print("I am"+my_age+ "years old")
+TypeError: must be str, not int
+>>> print("I am"+"my_age"+"years old")
+	  
+I ammy_ageyears old
+>>> my_age = "15"
+	  
+>>> my_age
+	  
+'15'
+>>> print("I am"+my_age+ "years old")
+	  
+I am15years old
+>>> print("I am "+my_age+ " years old")
+	  
+I am 15 years old
+>>> >>> my_age = 15
+>>> print(‘I am ‘ + my_age + ‘years old’)
+	  
+SyntaxError: invalid syntax
+>>> >>> score = 1
+>>> total = score + (count * 2)
+>>> print(total)
+	  
+SyntaxError: invalid syntax
+>>> score="1"
+	  
+>>> score
+	  
+'1'
+>>> '1'p
+	  
+SyntaxError: invalid syntax
+>>> print ('total' + score)
+	  
+total1
+>>> "total" = score + (count * 2)
+	  
+SyntaxError: can't assign to literal
+>>> score= '1'
+	  
+>>> count= '5'
+	  
+>>> total= score+ (count*2)
+	  
+>>> print total
+	  
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(total)?
+>>> print (total)
+	  
+155
+>>> 
+	  
+>>> bash endlab
+	  
+SyntaxError: invalid syntax
+>>> bash endlab
+	  
+SyntaxError: invalid syntax
+>>> 
